@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>Desmond Resume Template</title>
+        <title>Jordan S Duke</title>
 
         <meta name="description" content="">
 

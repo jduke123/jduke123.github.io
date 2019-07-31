@@ -4,6 +4,16 @@
 
     <head>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-68044005-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-68044005-1');
+        </script>
+
         <title>Jordan S Duke</title>
 
         <meta name="description" content="">
@@ -46,6 +56,11 @@
 
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/header/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/header/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/header/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 
     </head>
 
@@ -95,7 +110,7 @@
                                                 <h1 class="c-brand__title  t-title">
                                                     <span class="c-brand__sizer">
                                                         <span class="a-header  c-brand__first-word  t-title__first-word">
-                                                            jordan s
+                                                            Jordan
                                                         </span>
                                                         <span class="a-header  c-brand__second-word  t-title__second-word">
                                                             Duke
@@ -139,17 +154,6 @@
                                                         <address>
                                                             Dothan, AL
                                                         </address>
-                                                    </div>
-                                                </div><!-- /o-content -->
-                                            </div><!-- /o-grid__col -->
-
-                                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                                <div class="a-header  o-content">
-                                                    <div class="o-content__body">
-                                                        <h4>Phone</h4>
-                                                        <p>
-                                                            334-648-0948
-                                                        </p>
                                                     </div>
                                                 </div><!-- /o-content -->
                                             </div><!-- /o-grid__col -->
@@ -258,9 +262,6 @@
                                 <h2 class="o-section__heading">
                                     Expertise
                                 </h2>
-                                <div class="o-content__body  o-section__description">
-                                    Solving complex problems with clean and well-written code.
-                                </div>
                             </div>
                         </header><!-- /o-section__header -->
 
@@ -498,7 +499,7 @@
                                             </div>
                                             <div class="o-grid__col-md-7">
                                                 <p>
-                                                    While at Angeltrax I reduced server usage by around 25% by converting all of the services to .Net using EF Core and SQLKata, I handled various incoming messages from the DVRs and processed them, and developed a mail sender that used AWS to handle customer notifications and bounced emails.
+                                                    While at Angeltrax I reduced server usage by around 25% by converting all of the services to .Net using EF Core and SQLKata, I used RabbitMQ to handle message queueing then processed messages with event-driven processors sitting in docker containers, and developed a mail sender that used AWS to handle customer notifications and bounced emails.
                                                 </p>
                                             </div>
                                         </div><!-- /o-grid -->
@@ -805,10 +806,10 @@
                                                     <h1 class="c-brand__title  t-title">
                                                         <span class="c-brand__sizer  c-brand__sizer--sm">
                                                             <span class="a-footer  c-brand__first-word  t-title__first-word">
-                                                                jordan
+                                                                Jordan
                                                             </span>
                                                             <span class="a-footer  c-brand__second-word  t-title__second-word">
-                                                                DUKE
+                                                                Duke
                                                             </span>
                                                         </span>
                                                     </h1>
